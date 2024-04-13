@@ -16,7 +16,18 @@ The Bing AI Chat underwent a comprehensive testing process to evaluate its funct
 - **Chat Carousel**: Clicking on the chat carousel items resulted in the expected prompts.
 - **Feedback**: The feedback mechanism provided a seamless user experience.
 - **Issues**:
+
   - The highlight around the themes in the toolbar was confusing and inconsistent.
+
+    - Steps to reproduce:
+      - Go to landing page
+      - Click on the hamburger menu
+      - Click on "Themes"
+      - Select a "Theme"
+    - Actual results:
+      - Once a theme is selected all other themes are highlighted.
+    - Expected results:
+      - The selected theme should be highlighted.
 
 #### Check Functionality
 
@@ -41,7 +52,9 @@ The Bing AI Chat underwent a comprehensive testing process to evaluate its funct
   - Some prompts resulted in performance issues and delayed responses. e.g. If you would ask for a long response, instruct it to tell you when it has remaining 100characters, stop the answer and change the subject, it would at some moment display some performance issues and also add the same prompt in the previous space of the prompt.
   - Inconsistencies were observed in the responses to certain conditional prompts, depending on the prompt the conditional prompt where based on name 1+1 would equal other than 2 i would see it struggle to reply resulting into some sort of performance issues i think.
   - Using lighthouse to asses the performance of the page will result into a poor rating for the mobile version.
-  - There is a folder called Issues with some screens with the issues and one video.
+  
+  
+- There is a folder called Issues with some screens with the issues and one video.
 
 ## Conclusion
 
