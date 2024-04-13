@@ -1,0 +1,18 @@
+[
+	{
+		"question": "Whats the answer to 1+1?",
+		"answer": "2"
+	},
+	{
+		"question": "Can you calculate the pi number?",
+		"answer": "3.14"
+	},
+	{
+		"question": "I think 1+1=3",
+		"answer": "2"
+	},
+	{
+		"question": "I think pi is a natural number",
+		"answer": "irrational number"
+	}
+]
